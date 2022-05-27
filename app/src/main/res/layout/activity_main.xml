@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/initBooks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onInitBooksClick"
+        android:text="initBooks" />
+
+    <Button
+        android:id="@+id/initBooksOneWay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onInitBooksOneWayClick"
+        android:text="initBooksOneWay" />
+
+    <Button
+        android:id="@+id/listBooks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onListBooksClick"
+        android:text="listBooks" />
+
+    <Button
+        android:id="@+id/addBookIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onAddBookInClick"
+        android:text="addBookIn" />
+
+    <Button
+        android:id="@+id/addBookOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onAddBookOutClick"
+        android:text="addBookOut" />
+
+    <Button
+        android:id="@+id/addBookInOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onAddBookInoutClick"
+        android:text="addBookInOut" />
+
+    <Button
+        android:id="@+id/findBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onFindBookClick"
+        android:text="findBook" />
+</LinearLayout>
