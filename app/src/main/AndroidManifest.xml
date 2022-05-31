@@ -17,12 +17,19 @@
             </intent-filter>
         </activity>
         <activity android:name="com.afauria.sample.ipc.client.SecondActivity" />
+        <activity android:name=".client.BinderPoolActivity" />
         <!--一般情况应用进程名就是应用包名-->
         <service
             android:name="com.afauria.sample.ipc.server.BookManagerService"
             android:process="com.afauria.sample.ipc.process">
             <intent-filter>
                 <action android:name="com.afauria.sample.BookManager" />
+            </intent-filter>
+        </service>
+        <service android:name=".server.BinderPoolService"
+            android:process="com.afauria.sample.ipc.process">
+            <intent-filter>
+                <action android:name="com.afauria.sample.BinderPool" />
             </intent-filter>
         </service>
     </application>
